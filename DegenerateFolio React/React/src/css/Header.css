@@ -1,0 +1,44 @@
+.navUnit{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width:7%;
+    height:4vh;
+    transition:0.3s;
+    font-size:20px;
+    font-weight:bold;
+    opacity:0.7;
+}
+
+.navUnit:hover{
+    color:red;
+}
+
+#root{
+    display:flex;
+    flex-flow:column;
+}
+
+html {
+    min-height: 100%;
+}
+body {
+    min-height: 100%;
+}
+
+header{
+    background:rgba(150,160,150,0.9);
+    cursor:pointer;
+    align-items: center;
+    display:flex;
+    left:0;
+    top:0;
+    min-width:100%;
+    width:100%;
+    min-height:30px;
+    height:3%;
+    border-bottom:1px solid rgba(80,80,80,0.5);
+    margin-bottom:10px;
+}
+
+

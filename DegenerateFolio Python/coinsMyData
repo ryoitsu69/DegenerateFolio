@@ -1,0 +1,243 @@
+[
+    {
+        "name": "JUP",
+        "links": {
+            "CoinMarketCap" : "https://coinmarketcap.com/currencies/jupiter-ag/",
+            "Website" : "https://jup.ag/"
+        },
+        "contracts": {
+            "SOL": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN"
+        }
+    },
+    {
+        "name": "SEI",
+        "links": {
+            "CoinMarketCap" : "https://coinmarketcap.com/currencies/sei/",
+            "Website" : "https://www.sei.io/"
+        }
+    },
+    {
+        "name": "PYTH",
+        "links": {
+            "CoinMarketCap" : "https://coinmarketcap.com/currencies/pyth-network/",
+            "Website" : "https://pyth.network/"
+        },
+        "contracts": {
+            "SOL": "HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3"
+        }
+    },
+    {
+        "name": "FIL",
+        "landed": 205,
+        "links": {
+            "CoinMarketCap" : "https://coinmarketcap.com/currencies/filecoin/",
+            "Website" : "https://filecoin.io/",
+            "Landing" : "https://www.glif.io/en"
+        },
+        "contracts": {
+            "BSC": "0x0d8ce2a99bb6e3b7db580ed848240e4a0f9ae153",
+            "HECO": "0xae3a768f9ab104c69a7cd6041fe16ffa235d1810",
+            "HOO": "0x0bf85d3b0c9ebcc282fde0591882d12e57e700b3"
+        }
+    },
+    {
+        "name": "STRK",
+        "landed":1274,
+        "links": {
+            "CoinMarketCap" : "https://coinmarketcap.com/currencies/starknet-token/",
+            "Website" : "https://www.starknet.io/en"
+        },
+        "contracts": {
+            "ETH": "0xCa14007Eff0dB1f8135f4C25B34De49AB0d42766"
+        }
+    },
+    {
+        "name": "CATCH",
+        "locked":1952,
+        "links": {
+            "CoinMarketCap" : "https://coinmarketcap.com/currencies/spacecatch/",
+            "Website" : "https://spacecatch.io/"
+        },
+        "contracts": {
+            "ARB": "0xf0a479C9c3378638EC603b8B6B0d75903902550B"
+        }
+    },
+    {
+        "name": "MANTA",
+        "links": {
+            "CoinMarketCap" : "https://coinmarketcap.com/currencies/manta-network/",
+            "Website" : "hhttps://manta.network/"
+        }
+    },
+    {
+        "name": "SUI",
+        "landed":924,
+        "links": {
+            "CoinMarketCap" : "https://coinmarketcap.com/currencies/sui/",
+            "Website" : "https://sui.io/",
+            "Landing" : "https://naviprotocol.io/"
+        },
+        "contracts": {
+            "SUI": "0x2::sui::SUI"
+        }
+    },
+    {
+        "name": "NEAR",
+        "links": {
+            "CoinMarketCap" : "https://coinmarketcap.com/currencies/near-protocol/",
+            "Website" : "https://near.org/"
+        }
+    },
+    {
+        "name": "TIA",
+        "links": {
+            "CoinMarketCap" : "https://coinmarketcap.com/currencies/celestia/",
+            "Website" : "https://celestia.org/"
+        },
+        "contracts": {
+            "OSMOSIS": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
+            "INJ": "ibc/F51BB221BAA275F2EBF654F70B005627D7E713AFFD6D86AFD1E43CAA886149F4"
+        }
+    },
+    {
+        "name": "APT",
+        "staked": 100.5,
+        "links": {
+            "CoinMarketCap" : "https://coinmarketcap.com/currencies/aptos/",
+            "Website" : "https://aptosfoundation.org/"
+        },
+        "contracts": {
+            "APT": "0x1::aptos_coin::AptosCoin"
+        }
+    },
+    {
+        "name": "OP",
+        "links": {
+            "CoinMarketCap" : "https://coinmarketcap.com/currencies/optimism-ethereum/",
+            "Website" : "https://www.optimism.io/"
+        },
+        "contracts": {
+            "OP": "0x4200000000000000000000000000000000000042"
+        }
+    },
+    {
+        "name": "ARB",
+        "links": {
+            "CoinMarketCap" : "https://coinmarketcap.com/currencies/arbitrum/",
+            "Website" : "https://www.optimism.io/"
+        },
+        "contracts": {
+            "ETH": "0xB50721BCf8d664c30412Cfbc6cf7a15145234ad1",
+            "ARB": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+            "OSMOSIS": "ibc/10E5E5B06D78FFBB61FD9F89209DEE5FD4446ED0550CBB8E3747DA79E10D9DC6"
+        }
+    },
+    {
+        "name": "DOT",
+        "locked":99,
+        "links": {
+            "CoinMarketCap" : "https://coinmarketcap.com/currencies/polkadot-new/",
+            "Website" : "https://polkadot.network/"
+        },
+        "contracts": {
+            "BSC": "0x7083609fce4d1d8dc0c979aab8c869ea2c873402",
+            "HECO": "0xa2c49cee16a5e5bdefde931107dc1fae9f7773e3",
+            "OSMOSIS": "ibc/ibc/3FF92D26B407FD61AE95D975712A7C319CDE28DE4D80BDC9978D935932B991D7"
+        }
+    },
+    {
+        "name": "ALGO",
+        "links": {
+            "CoinMarketCap" : "https://coinmarketcap.com/currencies/algorand/",
+            "Website" : "https://www.algorand.foundation/"
+        }
+    },
+    {
+        "name": "ATOM",
+        "links": {
+            "CoinMarketCap" : "https://coinmarketcap.com/currencies/cosmos/",
+            "Website" : "https://cosmos.network/"
+        },
+        "contracts": {
+            "ETH": "0x8D983cb9388EaC77af0474fA441C4815500Cb7BB",
+            "BSC": "0x0eb3a705fc54725037cc9e008bdede697f62f335",
+            "INJ": "ibc/ibc/c4cff46fd6de35ca4cf4ce031e643c8fdc9ba4b99ae598e9b0ed98fe3a2319f9"
+        }
+    },
+    {
+        "name": "CYBER",
+        "staked":57,
+        "links": {
+            "CoinMarketCap" : "https://coinmarketcap.com/currencies/cyberconnect/",
+            "Website" : "https://cyber.co/"
+        },
+        "contracts": {
+            "ETH": "0x14778860e937f509e651192a90589de711fb88a9",
+            "BSC": "0x14778860e937f509e651192a90589de711fb88a9",
+            "OP": "0x14778860e937f509e651192a90589de711fb88a9"
+        }
+    },
+    {
+        "name": "SOL",
+        "links": {
+            "CoinMarketCap" : "https://coinmarketcap.com/currencies/solana/",
+            "Website" : "https://solana.com/"
+        }
+    },
+    {
+        "name": "ICP",
+        "links": {
+            "CoinMarketCap" : "https://coinmarketcap.com/currencies/internet-computer/",
+            "Website" : "https://internetcomputer.org/"
+        }
+    },
+    {
+        "name": "FTM",
+        "links": {
+            "CoinMarketCap" : "https://coinmarketcap.com/currencies/fantom/",
+            "Website" : "https://fantom.foundation/"
+        }
+    },
+        {
+        "name": "GLMR",
+        "links": {
+            "CoinMarketCap" : "https://coinmarketcap.com/currencies/moonbeam/",
+            "Website" : "https://moonbeam.network/"
+        }
+    },
+    {
+        "name": "WOO",
+        "links": {
+            "CoinMarketCap" : "https://coinmarketcap.com/currencies/wootrade/",
+            "Website" : "https://woo.org/"
+        }
+    },
+        {
+        "name": "STG",
+        "links": {
+            "CoinMarketCap" : "https://coinmarketcap.com/currencies/stargate-finance/",
+            "Website" : "https://stargate.finance/"
+        }
+    },
+        {
+        "name": "AVAX",
+        "links": {
+            "CoinMarketCap" : "https://coinmarketcap.com/currencies/avalanche/",
+            "Website" : "https://www.avax.network/"
+        }
+    },
+    {
+        "name": "ETH",
+        "links": {
+            "CoinMarketCap" : "https://coinmarketcap.com/currencies/ethereum/",
+            "Website" : "https://ethereum.org/en/"
+        }
+    },
+    {
+        "name": "LINK",
+        "links": {
+            "CoinMarketCap" : "https://coinmarketcap.com/currencies/chainlink/",
+            "Website" : "https://chain.link/"
+        }
+    }
+    ]
