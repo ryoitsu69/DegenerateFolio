@@ -1,0 +1,88 @@
+.navUnit{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width:10%;
+    height:4vh;
+    transition:0.3s;
+    font-size:1vw;
+    font-weight:bold;
+    opacity:0.7;
+}
+
+.navUnit:hover{
+    color:red;
+}
+
+.shadersButton {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#shadersChoice {
+    background:rgba(150,160,150,0.9);
+    color:rgba(150,160,150,0.9);
+    position:absolute;
+    width:7%;
+    left:90%;
+    display: inline-block;
+}
+
+#shaders-content {
+background:rgba(150,160,150,0.9);
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+#shaders-content a {
+background:rgba(200,200,200,0.9);
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#shaders-content a:hover {   background:rgba(200,200,200,0.9);}
+
+#shadersChoice:hover #shaders-content {
+    display: block;
+        background:rgba(200,200,200,0.9);
+}
+
+#shadersChoice:hover .shadersButton {
+background:rgba(200,200,200,0.9);
+}
+
+#root{
+    display:flex;
+    flex-flow:column;
+}
+
+html {
+    min-height: 100%;
+}
+body {
+    min-height: 100%;
+}
+
+header{
+    background:rgba(150,160,150,0.9);
+    cursor:pointer;
+    align-items: center;
+    display:flex;
+    left:0;
+    top:0;
+    min-width:100%;
+    width:100%;
+    min-height:30px;
+    height:3%;
+    border-bottom:1px solid rgba(80,80,80,0.5);
+    margin-bottom:10px;
+}
+
+

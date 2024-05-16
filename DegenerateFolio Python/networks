@@ -1,0 +1,17 @@
+{"networks":[
+
+    {"Internet Computer":"getIcp"},
+    {"Solana":"getSolTokens"},
+    {"Ethereum":"getEvmTokens"},
+    {"Sui":"getSui"},
+    {"NEAR Protocol":"getNearTokens"},
+    {"Polkadot":"getDot"},
+    {"Aptos":"getAptos"},
+    {"Manta Network":"getManta"},
+    {"Starknet":"getStark"},
+    {"Cosmos":"getAtom"},
+    {"Sei":"getSei"},
+    {"Celestia":"getTia"},
+    {"Algorand":"getAlgoTokens"}
+
+]}

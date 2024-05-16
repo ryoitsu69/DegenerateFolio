@@ -1,0 +1,219 @@
+#total_value{
+    text-align:center;
+    font-size:3vw;
+    font-weight:bold;
+    margin-top:2vw;
+    margin-bottom:2vw;
+    color:white;
+}
+
+#content_wrap{
+    display:flex;
+    flex-flow:row;
+}
+
+#accounts_wrap{
+    display:flex;
+    width:15%;
+    min-width:15%;
+    justify-content:center;
+    align-items: stretch;
+    border:1px solid black;
+    height:100%;
+}
+
+#assets_wrap{
+/*    background:rgba(255,255,255,0.7);
+ */   height:100%;
+    display: flex;
+    flex-flow:column;
+    width:80%;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+#total_value{
+    display: flex;
+    width:100%;
+    min-height:30px;
+    justify-content:center;
+}
+
+#asset_table_rows{
+    background:rgba(255,255,255,0.95);
+    display: flex;
+    border-radius: 0.3vw;
+    border: solid 1px rgba(80,80,80,0.5);
+    border-bottom:0;
+    width:75%;
+    height:2vw;
+    font-size:1.2vw;
+    justify-content:center;
+    align-items: center;
+    line-height: 30px;
+    text-align:center;
+
+}
+
+
+#asset_table_rows span:hover{
+    cursor:pointer;
+    color:red;
+}
+
+#asset_wrap{
+
+    width:75%;
+    font-size:1vw;
+    border-radius: 0.3vw;
+    border: solid 1px rgba(100,100,100,0.5);
+}
+
+.weeklyCHart{
+    width:25%;
+    text-align:center;
+}
+
+.asset canvas{
+    height:100%;
+    width:25%;
+}
+
+.label{
+    color:white;
+    width:75%;
+    display:flex;
+    justify-content:flex-start;
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom:20px;
+    margin-left:20px;
+}
+
+.asset{
+    background:rgba(255,255,255,0.9);
+    align-items:flex-start;
+    width:100%;
+    min-height:30px;
+    justify-content:center;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(190,190,190,0.5);
+}
+
+.asset:hover{
+    cursor:pointer;
+    background: rgba(255,255,255,0.7);
+}
+
+#asset_table_rows .nameWrap{
+    margin-left:2.5%;
+    width:15%;
+}
+
+.asset .canvas{
+    position:relative !important;
+    width: 25% !important;
+    height:100% !important;
+    z-index:0 !important;
+}
+
+.asset .name{
+    color:grey;
+}
+
+.asset .nameWrap{
+    margin-left:2.5%;
+}
+
+.nameWrap{
+    display:flex;
+    width:10%;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+    flex-flow:column;
+}
+
+.tokenLogo{
+    position:relative;
+    left:1%;
+    width:2.5%;
+    display:flex;
+    border-radius:50%;
+}
+
+.price{
+    display:flex;
+    width:10%;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+}
+
+.asset .h1{
+        margin-left:2.5%;
+}
+
+.holdings{
+    display:flex;
+    width:10%;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+}
+
+.value{
+    display:flex;
+    width:10%;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+}
+
+.h1{
+    display:flex;
+    width:10%;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+}
+
+.negative{
+    color:red;
+}
+
+.positive{
+    color:green;
+}
+
+.neutral{
+    color: grey;
+}
+
+.undefined{
+    color:grey;
+}
+
+.h24{
+    display:flex;
+    width:10%;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+}
+
+.d7{
+    display:flex;
+    width:10%;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+}
