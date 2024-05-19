@@ -10,9 +10,9 @@ var tokens = [];
 var waiting = false;
 var weeklyTimeframe = '1 H';
 var weeklyLimit = 168;
+var decimalsDefault = 2;
 
-
-const socket = new WebSocket("ws://192.168.50.252:13257");
+const socket = new WebSocket("ws://192.168.50.252:13280");
 
 socket.onopen = function () {
   socketReady = true;
@@ -62,8 +62,8 @@ socket.addEventListener("message", async (event) => {
         token.d7Change = balances[i].d7Change;
         totalValue+=token.value;
         updateToken(token.name,'price',token.price);
-        updateToken(token.name,'holdings',token.holdings);
-        updateToken(token.name,'value',token.value);
+        updateToken(token.name,'holdings',getValueDisplayString(token.holdings,token));
+        updateToken(token.name,'value',getValueDisplayString(token.value));
         updateToken(token.name,'h1',token.h1Change);
         updateToken(token.name,'h24',token.h24Change);
         updateToken(token.name,'d7',token.d7Change);
@@ -85,22 +85,12 @@ socket.addEventListener("message", async (event) => {
         token.chart.push([i, chart.open[i]]);
       }
 
-      //let percentages = recalculatePercentages(token.name, true);
-      //console.log(percentages);
-      //h1 = percentages[0];
-      //h24 = percentages[1];
-      //d7 = percentages[2];
-
-    }else{
-      //h1 = "-";
-      //h24 = "-";
-      //d7 = "-";
     }
 
     h1Class = token.h1Change != "-" ? (token.h1Change > 0 ? 'positive' : (token.h1Change==0 ? "neutral" : 'negative')) : 'undefined';
     h24Class = token.h24Change != "-" ? (token.h24Change > 0 ? 'positive' : (token.h24Change==0 ? "neutral" : 'negative')) : 'undefined';
     d7Class = token.d7Change != "-" ? (token.d7Change > 0 ? 'positive' : (token.d7Change==0 ? "neutral" : 'negative')) : 'undefined';
-    let html ="<div id='"+token.name+"' class='asset'><img src='images/logo/"+token.name+".png'"+" class='tokenLogo' ><span class='nameWrap'><span class='fullname'>"+token.fullname+"</span><span class='name'>("+token.name+")</span></span> <span class='h1 "+h1Class+"'>"+token.h1Change+"</span><span class='h24 "+h24Class+"'>"+token.h24Change+"</span><span class='d7 "+d7Class+"'>"+token.d7Change+"</span> <span class='price'>"+token.price+"</span><span class='holdings'>"+token.holdings+"</span> <span class='value'>"+token.value+"</span><canvas class='canvas'></canvas></div>";
+    let html ="<div id='"+token.name+"' class='asset'><img src='images/logo/"+token.name+".png'"+" class='tokenLogo' ><span class='nameWrap'><span class='fullname'>"+token.fullname+"</span><span class='name'>("+token.name+")</span></span> <span class='h1 "+h1Class+"'>"+token.h1Change+"</span><span class='h24 "+h24Class+"'>"+token.h24Change+"</span><span class='d7 "+d7Class+"'>"+token.d7Change+"</span> <span class='price'>"+token.price+"</span><span class='holdings'>"+getValueDisplayString(token.holdings,token)+"</span> <span class='value'>"+getValueDisplayString(token.value,token)+"</span><canvas class='canvas'></canvas></div>";
     const node = document.createRange().createContextualFragment(html);
     document.getElementById("asset_wrap").appendChild(node);
 
@@ -128,6 +118,15 @@ socket.addEventListener("message", async (event) => {
   }
 
 });
+
+function getValueDisplayString(value,token){
+  var result = value;
+  if(value>10000000){
+    var decimals =
+    result = round(value/1000000,token.decimals)+"M";
+  }
+  return result;
+}
 
 function getMinFrom7dChart(token){
   let min = Infinity;

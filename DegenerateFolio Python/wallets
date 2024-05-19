@@ -1,18 +1,18 @@
 {"wallets":[
 
-    {"Internet Computer":["529ea51c22e8d66e8302eabd9297b100fdb369109822248bb86939a671fbc55b"]},
-    {"Solana":["8g4Z9d6PqGkgH31tMW6FwxGhwYJrXpxZHQrkikpLJKrG"]},
-    {"Ethereum":["0x4838B106FCe9647Bdf1E7877BF73cE8B0BAD5f97"]},
-    {"Sui":["0xe9dfdf59527ef04168dc867e933a36d563b96b942541ed6c1cb4cce1e96226fe"]},
-    {"NEAR Protocol":["249e1bec4d782ec1959a927ef468fcea4e1a4c29ac7e11b51a5f15bad85aecc3"]},
-    {"Polkadot":["147WS8AEnEydqtJgrnfvthyPYm11imePyqwCRp4UGCFMdbH1"]},
-    {"Aptos":["0x2d91309b5b07a8be428ccd75d0443e81542ffcd059d0ab380cefc552229b1a"]},
-    {"Manta Network":["dfXAMGNLEvDoFv7zeGJ8jS7ubU4XDVvuGUBHgms92c8NpZeQv"]},
-    {"Starknet":["0x039e67f782da34e09fc8483eb8820cf8036e622639c6823d1d1cc349192d93cf"]},
-    {"Cosmos":["cosmos1numazl76nnrzqxehythk7cj8e249gjlc5p5rde"]},
-    {"Sei":["sei18qgau4n88tdaxu9y2t2y2px29yvwp50mk4xctp7grwfj7fkcdn8qvs9ry8"]},
-    {"Celestia":["celestia1n52v50kwgcgr7x88vtnyk2zwweuvalfjmk5q8u"]},
-    {"Algorand":["5SFNTQF5WA7GWS5RQEDZRNQ22GTAPBTLGIQDOBKOSWVT7YOOVKHVMC4Q4U"]}
+    {"Internet Computer":["4b6e620621b73ac1e3d04ac6e79263ff5d2f558746d24526135d0e70b40bb6bf"]},
+    {"Solana":["4cmGDc1HZDAnvgD1L8a3TB4kYkP3Ax25DH4PJsszVHAx"]},
+    {"Ethereum":["0x4AE673F8898408d39966dE7ECC0BD7128b4b912E"]},
+    {"Sui":["0x87cd28977f1f891d514de4ef094d08b5cfcc05d0994c98e19afd1a90d557e0bf"]},
+    {"NEAR Protocol":["ifalafel.tg"]},
+    {"Polkadot":["13gBrKGMhttuNjywbmEfK5NFeNbHpbQGbJtFVRMmUWHaSNZf"]},
+    {"Aptos":["0x76ad44ec66b2169b10eb53b4daa856624d47c007e69efd8418f20dc5d92b7071"]},
+    {"Manta Network":["dfXTwYi1M9KsyoqjHNaoSJQ1eEUFPVY1Xdjh1DnnL5VcUYn4f"]},
+    {"Starknet":["0x045e33392ae862fbcdf880a6aae90807c3c784bd323378884861182cda264762"]},
+    {"Cosmos":["cosmos1d6j4xs7l55s2lsy2vqdalj25ef9rj72y05ne0m"]},
+    {"Sei":["sei1nk77dnzkesy2dju74n3lj4ru0h8pac0hq6kaz9"]},
+    {"Celestia":["celestia1d6j4xs7l55s2lsy2vqdalj25ef9rj72y77zf4k"]},
+    {"Algorand":["4TMDKRZYJGMG4FJXFSROSGWBJ7KW26ZWLDH7XKS4D6PAS6YK6DUOEAD65Q"]}
 
 ]}
 

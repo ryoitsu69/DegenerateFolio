@@ -288,5 +288,19 @@
             "CoinMarketCap" : "https://coinmarketcap.com/currencies/mantle/",
             "Website" : "https://www.mantle.xyz/"
         }
+    },
+    {
+        "name": "ENA",
+        "links": {
+            "CoinMarketCap" : "https://coinmarketcap.com/currencies/ethena/",
+            "Website" : "https://ethena.fi/"
+        }
+    },
+    {
+        "name": "DEFLY",
+        "links": {
+            "CoinMarketCap" : "https://coinmarketcap.com/currencies/defly-token/",
+            "Website" : "https://coinmarketcap.com/currencies/defly-token/"
+        }
     }
     ]
