@@ -12,7 +12,7 @@ var weeklyTimeframe = '1 H';
 var weeklyLimit = 168;
 
 
-const socket = new WebSocket("ws://192.168.50.252:13229");
+const socket = new WebSocket("ws://192.168.50.252:13257");
 
 socket.onopen = function () {
   socketReady = true;
