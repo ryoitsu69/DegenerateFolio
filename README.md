@@ -40,5 +40,6 @@ Create json file in DegenerateFolio/DegenerateFolio Python/portfolios with folow
     "lended": [{"SUI":924},{"STRK":1288},{"FIL":205}]
 }
 
+    "staked", "locked", "lended" are for tokens that are not displayed in explorer and you dont wanna parse them somewhere else
 
 
