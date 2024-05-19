@@ -7,9 +7,16 @@ rm -rf node_modules && npm install -f
 
 Create json file in DegenerateFolio/DegenerateFolio Python/portfolios with folowing structure
 
+
+
+
+
+ server.send_message_to_all('updateAllBalances/'+allBalancesToJson(getPortfolio("Testfolio")))        <-------
+ forgot to replace it with something better so use only Testfolio as name for now 
+
 {
 
-    "name":"RichFolio",
+    "name":"Testfolio",            <------
     "description":"Im rich",
     "wallets":[
 
